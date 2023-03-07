@@ -87,11 +87,11 @@ console.log(mergePoke)
 
 function sumEveryOther(...sumNum) {
     console.log(sumNum)
-    let sumaTot = 0;
+    let sumaTodo = 0;
   for (let num of sumNum) {
-    sumaTot += num;
+    sumaTodo += num;
   }
-  return sumaTot;
+  return sumaTodo;
 }
 
 console.log(sumEveryOther(1, 2, 3, 4, 5))
@@ -118,9 +118,9 @@ function addOnlyNums(...args) {
 
   // Escribe una función llamada countTheArgs que pueda recibir cualquier número de argumentos y devuelva un número que indique cuántos argumentos ha recibido.
 
-function countTheArgs(...animales) {
-  console.log (animales)
-  return animales.length;
+function countTheArgs(...palabras) {
+  console.log (palabras)
+  return palabras.length;
   }
   
   console.log (countTheArgs('hola', 'tete')); 
